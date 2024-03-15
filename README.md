@@ -6,7 +6,7 @@
 ## Image Classification
 ### 1. Requirements
 
-torch>=1.7.0; torchvision>=0.8.0; pyyaml; timm;  
+torch>=1.7.0; torchvision>=0.8.0; pyyaml; timm==0.6.13;  
 
 data prepare: ImageNet with the following folder structure, you can extract ImageNet by this [script](https://gist.github.com/BIGBALLON/8a71d225eff18d88e469e6ea9b39cef4).
 
