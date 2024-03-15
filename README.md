@@ -53,7 +53,7 @@ python3 validate.py /path/to/imagenet  --model {model} -b 256 --checkpoint {/pat
 We show how to train EfficientMod on 8 GPUs.
 
 ```bash
-python3 -m torch.distributed.launch --nproc_per_node=8 train_distill.py --data {path-to-imagenet} --model {model} -b 256 --lr 4e-3 --amp --model-ema --distillation-type soft --distillation-tau 1 --auto-resume --exp_tag {experiment_tag}
+python3 -m torch.distributed.launch --nproc_per_node=8 train.py --data {path-to-imagenet} --model {model} -b 256 --lr 4e-3 --amp --model-ema --distillation-type soft --distillation-tau 1 --auto-resume --exp_tag {experiment_tag}
 
 ```
 
