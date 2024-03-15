@@ -2,6 +2,7 @@
 
 ## News & TODO & Updates:
 -  [ ] will improve the performance with better training recipe.
+-  [ ] Simplify model by moving unnecessary settings and renaming the classes to ease understanding.
 -  [ ] Upload benchmark script to ease latency benchmark.
 
 ## Image Classification
